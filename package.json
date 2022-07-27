@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha 'test/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit"
   },
   "author": "ritik",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "node-fetch": "^2.6.7",
     "nodemon": "^2.0.16",
     "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha-junit-reporter": "^2.0.2"
   }
 }
