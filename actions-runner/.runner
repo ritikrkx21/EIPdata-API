@@ -1,9 +1,0 @@
-﻿{
-  "agentId": 22,
-  "agentName": "eip-runner",
-  "poolId": 1,
-  "poolName": "Default",
-  "serverUrl": "https://pipelines.actions.githubusercontent.com/yvvW09WcvGFV4W1iGNxqYNxRHtQLom0WWB4LuzvisC7MZVvuhl",
-  "gitHubUrl": "https://github.com/ritikrkx21/EIPdata-API",
-  "workFolder": "eip-runner_work"
-}
