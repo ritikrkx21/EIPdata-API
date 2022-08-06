@@ -1,0 +1,86 @@
+[2022-07-28 09:37:09Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO HostContext] Well known config file 'Runner': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.runner'
+[2022-07-28 09:37:09Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2022-07-28 09:37:09Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19044.
+[2022-07-28 09:37:09Z INFO Listener] Version: 2.294.0
+[2022-07-28 09:37:09Z INFO Listener] Commit: 709bd6113d2fca3a89a0fef11913ce4efd7b8cc5
+[2022-07-28 09:37:09Z INFO Listener] Culture: en-IN
+[2022-07-28 09:37:09Z INFO Listener] UI Culture: en-US
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO Listener] Validating directory permissions for: 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO CommandLineParser] Parse
+[2022-07-28 09:37:09Z INFO CommandLineParser] Parsing 1 args
+[2022-07-28 09:37:09Z INFO CommandLineParser] parsing argument
+[2022-07-28 09:37:09Z INFO CommandLineParser] HasArgs: False
+[2022-07-28 09:37:09Z INFO CommandLineParser] Adding Command: remove
+[2022-07-28 09:37:09Z INFO Listener] Arguments parsed
+[2022-07-28 09:37:09Z INFO Runner] ExecuteCommand
+[2022-07-28 09:37:09Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin\Runner.Listener.dll
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] binPath: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] RootFolder: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO HostContext] Well known config file 'Runner': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.runner'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] ConfigFilePath: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.runner
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] CredFilePath: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials_migrated'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials_migrated
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:09Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:09Z INFO HostContext] Well known config file 'Service': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.service'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.service
+[2022-07-28 09:37:09Z INFO CommandSettings] Flag 'help': 'False'
+[2022-07-28 09:37:09Z INFO CommandSettings] Flag 'version': 'False'
+[2022-07-28 09:37:09Z INFO CommandSettings] Flag 'commit': 'False'
+[2022-07-28 09:37:09Z INFO CommandSettings] Flag 'check': 'False'
+[2022-07-28 09:37:09Z INFO CommandSettings] Command 'configure': 'False'
+[2022-07-28 09:37:09Z INFO CommandSettings] Command 'remove': 'True'
+[2022-07-28 09:37:09Z INFO ConfigurationStore] IsServiceConfigured()
+[2022-07-28 09:37:09Z INFO ConfigurationStore] IsServiceConfigured: False
+[2022-07-28 09:37:09Z INFO ConfigurationStore] IsConfigured()
+[2022-07-28 09:37:09Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-28 09:37:09Z INFO ConfigurationStore] HasCredentials()
+[2022-07-28 09:37:09Z INFO ConfigurationStore] stored True
+[2022-07-28 09:37:09Z INFO ConfigurationStore] Read setting file: 308 chars
+[2022-07-28 09:37:09Z INFO CommandSettings] Arg 'token': ''
+[2022-07-28 09:37:09Z INFO CommandSettings] Flag 'unattended': 'False'
+[2022-07-28 09:37:09Z INFO PromptManager] ReadValue
+[2022-07-28 09:37:09Z INFO Terminal] WRITE: Enter runner remove token: 
+[2022-07-28 09:37:09Z INFO Terminal] READ SECRET
+[2022-07-28 09:37:30Z INFO Terminal] Read value: '***'
+[2022-07-28 09:37:31Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration'
+[2022-07-28 09:37:31Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2022-07-28 09:37:31Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2022-07-28 09:37:31Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-28 09:37:31Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-28 09:37:31Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-28 09:37:31Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2022-07-28 09:37:31Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2022-07-28 09:37:32Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-28 09:37:32Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-28 09:37:32Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2022-07-28 09:37:33Z INFO Terminal] WRITE LINE: 
+[2022-07-28 09:37:33Z INFO ConfigurationStore] IsConfigured()
+[2022-07-28 09:37:33Z INFO ConfigurationStore] IsConfigured: True
+[2022-07-28 09:37:33Z INFO ConfigurationStore] HasCredentials()
+[2022-07-28 09:37:33Z INFO ConfigurationStore] stored True
+[2022-07-28 09:37:33Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 09:37:33Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 09:37:33Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials_rsaparams'
+[2022-07-28 09:37:33Z INFO RSAEncryptedFileKeyManager] Deleting RSA key parameters file C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials_rsaparams
+[2022-07-28 09:37:33Z INFO Terminal] WRITE LINE: 
+[2022-07-28 09:37:33Z INFO Listener] Runner execution has finished with return code 0

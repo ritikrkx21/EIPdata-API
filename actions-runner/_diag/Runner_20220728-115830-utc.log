@@ -1,0 +1,40 @@
+[2022-07-28 11:58:30Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2022-07-28 11:58:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 11:58:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 11:58:30Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.credentials'
+[2022-07-28 11:58:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 11:58:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 11:58:30Z INFO HostContext] Well known config file 'Runner': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\.runner'
+[2022-07-28 11:58:30Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2022-07-28 11:58:30Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19044.
+[2022-07-28 11:58:30Z INFO Listener] Version: 2.294.0
+[2022-07-28 11:58:30Z INFO Listener] Commit: 709bd6113d2fca3a89a0fef11913ce4efd7b8cc5
+[2022-07-28 11:58:30Z INFO Listener] Culture: en-US
+[2022-07-28 11:58:30Z INFO Listener] UI Culture: en-US
+[2022-07-28 11:58:30Z INFO HostContext] Well known directory 'Bin': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner\bin'
+[2022-07-28 11:58:30Z INFO HostContext] Well known directory 'Root': 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 11:58:30Z INFO Listener] Validating directory permissions for: 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner'
+[2022-07-28 11:58:30Z ERR  Terminal] WRITE ERROR: An error occurred: Permission to read the directory contents is required for 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner' and each directory up the hierarchy. Access to the path 'C:\Users\HP\Documents\eip-fetch\server2\server2' is denied.
+[2022-07-28 11:58:30Z ERR  Listener] System.UnauthorizedAccessException: Permission to read the directory contents is required for 'C:\Users\HP\Documents\eip-fetch\server2\server2\actions-runner' and each directory up the hierarchy. Access to the path 'C:\Users\HP\Documents\eip-fetch\server2\server2' is denied.
+ ---> System.UnauthorizedAccessException: Access to the path 'C:\Users\HP\Documents\eip-fetch\server2\server2' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFileSystemEntries(String path)
+   at GitHub.Runner.Sdk.IOUtil.ValidateExecutePermission(String directory)
+   --- End of inner exception stack trace ---
+   at GitHub.Runner.Sdk.IOUtil.ValidateExecutePermission(String directory)
+   at GitHub.Runner.Listener.Program.MainAsync(IHostContext context, String[] args)
+[2022-07-28 11:58:30Z ERR  Listener] #####################################################
+[2022-07-28 11:58:30Z ERR  Listener] System.UnauthorizedAccessException: Access to the path 'C:\Users\HP\Documents\eip-fetch\server2\server2' is denied.
+   at System.IO.Enumeration.FileSystemEnumerator`1.CreateDirectoryHandle(String path, Boolean ignoreNotFound)
+   at System.IO.Enumeration.FileSystemEnumerator`1.Init()
+   at System.IO.Enumeration.FileSystemEnumerator`1..ctor(String directory, Boolean isNormalized, EnumerationOptions options)
+   at System.IO.Enumeration.FileSystemEnumerable`1..ctor(String directory, FindTransform transform, EnumerationOptions options, Boolean isNormalized)
+   at System.IO.Enumeration.FileSystemEnumerableFactory.UserEntries(String directory, String expression, EnumerationOptions options)
+   at System.IO.Directory.InternalEnumeratePaths(String path, String searchPattern, SearchTarget searchTarget, EnumerationOptions options)
+   at System.IO.Directory.EnumerateFileSystemEntries(String path)
+   at GitHub.Runner.Sdk.IOUtil.ValidateExecutePermission(String directory)

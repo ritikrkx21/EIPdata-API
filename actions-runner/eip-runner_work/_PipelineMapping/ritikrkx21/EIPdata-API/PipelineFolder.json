@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "ritikrkx21/EIPdata-API",
+  "pipelineDirectory": "EIPdata-API",
+  "workspaceDirectory": "EIPdata-API\\EIPdata-API",
+  "repositories": {
+    "ritikrkx21/EIPdata-API": {
+      "repositoryPath": "EIPdata-API\\EIPdata-API",
+      "lastRunOn": "07/28/2022 15:30:08 +05:30"
+    }
+  },
+  "lastRunOn": "07/28/2022 15:30:08 +05:30"
+}
