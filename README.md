@@ -1,5 +1,5 @@
 # EIPdata-API
-This API fetches EIP data . 
+This API fetches the EIP data in structured format. 
 
 API Endpoints (LIVE) :- 
 
